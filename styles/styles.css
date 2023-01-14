@@ -4,6 +4,11 @@ body{
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -14,7 +19,7 @@ nav{
 nav ul {
     display: flex;
     list-style: none;
-    gap: 15px;
+    gap: 18px;
     margin-right: 120px;
     font-size: 15px;
 }
@@ -27,4 +32,35 @@ nav ul {
 .banner{
     display: flex;
     align-items: center;
+    margin: 0px, 165px;
+}
+.banner-sub{
+    margin-left: 165px;
+    word-wrap: break-word;
+}
+.banner-title{
+    font-size: 52px;
+}
+.banner-img img{
+    margin-right: 165px;
+    background-image: url(../images/Circle\ design.svg);
+}
+.button-1{
+    background-color: magenta;
+    border-radius: 7px;
+    padding: 8px;
+}
+/* logos styles */
+.logos{
+    margin-top: 100px;
+}
+.logos img{
+   margin-left: 50px;
+   /* align-items: center; */
+}
+.logo{
+    margin-left: 185px;
+}
+.container{
+    margin-top: 40px;
 }
