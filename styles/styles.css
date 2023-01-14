@@ -3,12 +3,13 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+    background-color: #f5f2f2;;
 }
-main{
+/* main{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-}
+    flex-direction: column; */
+
 /* nav styles */
 nav{
     display: flex;
@@ -55,12 +56,44 @@ nav ul {
     margin-top: 100px;
 }
 .logos img{
-   margin-left: 50px;
-   /* align-items: center; */
-}
+    margin-left: 50px;
+ }
 .logo{
     margin-left: 185px;
 }
-.container{
-    margin-top: 40px;
+.container-header{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+}
+.article{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+.collection{
+    background-color:#ffffff;
+    border-radius: 5px;
+    width: 329px;
+    height: 476px;
+    padding: 30px;
+    margin-left: 165px;
+}
+.collection-items{
+    position: absolute;
+}
+.collection-title{
+    font-size: 25px;
+    margin: 30px, 0px;
+}
+.middle {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.price{
+    font-size: 24px;
+    margin: 3px;
+}
+.last-text{
+    margin: 2px;
 }
